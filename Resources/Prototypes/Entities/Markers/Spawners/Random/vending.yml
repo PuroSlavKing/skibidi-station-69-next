@@ -31,4 +31,5 @@
       - VendingMachineSoda
       - VendingMachineStarkist
       - VendingMachineSpaceUp
+      - PrizeCounter # Corvax-Next-Plushie
     chance: 1
