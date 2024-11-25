@@ -4,7 +4,7 @@ using Content.Shared.Interaction;
 using Content.Shared.Throwing;
 using Robust.Shared.Containers;
 using Robust.Shared.Random;
-using Robust.Shared.Spawners; // Ataraxia
+using Robust.Shared.Spawners; // Corvax-Next-ShockWave
 using Content.Server.Weapons.Ranged.Systems;
 using System.Numerics;
 using Content.Shared.Explosion.Components;
@@ -115,7 +115,7 @@ public sealed class ClusterGrenadeSystem : EntitySystem
                         RaiseLocalEvent(uid, ref ev);
                     }
                 }
-                QueueDel(uid); // Ataraxia-EDIT
+                QueueDel(uid); // Corvax-Next-ShockWave-EDIT
             }
         }
     }

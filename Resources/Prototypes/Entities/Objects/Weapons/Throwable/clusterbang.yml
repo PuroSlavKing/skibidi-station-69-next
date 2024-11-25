@@ -36,7 +36,7 @@
   - type: TimerTriggerVisuals
     primingSound:
       path: /Audio/Effects/countdown.ogg
-  - type: SpawnOnTrigger # Ataraxia
+  - type: SpawnOnTrigger # Corvax-Next-ShockWave
     proto: ExplosionEffectGrenadeShockWave
   - type: GenericVisualizer
     visuals:
@@ -73,7 +73,7 @@
         volume: 5
     initialBeepDelay: 0
     beepInterval: 0.5
-  - type: SpawnOnTrigger # Ataraxia
+  - type: SpawnOnTrigger # Corvax-Next-ShockWave
     proto: ExplosionEffectGrenadeShockWave
   - type: EmitSoundOnTrigger
     sound:

@@ -1,13 +1,13 @@
-using Content.Shared._RMC14.Explosion.Components;
+using Content.Shared.CorvaxNext.Explosion.Components;
 using Robust.Client.Graphics;
 using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace Content.Client._RMC14.Explosion;
+namespace Content.Client.CorvaxNext.Explosion;
 
-public sealed class RMCExplosionShockWaveOverlay : Overlay, IEntityEventSubscriber
+public sealed class ExplosionShockWaveOverlay : Overlay, IEntityEventSubscriber
 {
     [Dependency] private readonly IEntityManager _entMan = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
@@ -40,7 +40,7 @@ public sealed class RMCExplosionShockWaveOverlay : Overlay, IEntityEventSubscrib
         if (args.Viewport.Eye == null || _xformSystem is null && !_entMan.TrySystem(out _xformSystem))
             return false;
 
-        var query = _entMan.EntityQueryEnumerator<RMCExplosionShockWaveComponent, TransformComponent>();
+        var query = _entMan.EntityQueryEnumerator<ExplosionShockWaveComponent, TransformComponent>();
 
         _count = 0;
 

@@ -3,4 +3,4 @@
   components:
   - type: TimedDespawn
     lifetime: 0.5
-  - type: RMCExplosionShockWave
+  - type: ExplosionShockWave

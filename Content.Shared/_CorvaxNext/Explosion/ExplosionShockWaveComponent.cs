@@ -1,10 +1,10 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Shared._RMC14.Explosion.Components
+namespace Content.Shared.CorvaxNext.Explosion.Components
 {
     [RegisterComponent, NetworkedComponent]
     [AutoGenerateComponentState]
-    public sealed partial class RMCExplosionShockWaveComponent : Component
+    public sealed partial class ExplosionShockWaveComponent : Component
     {
         /// <summary>
         ///     The rate at which the wave fades, lower values means it's active for longer.
