@@ -38,6 +38,7 @@
     size: Small
     heldPrefix: stomach
   - type: Stomach
+    digestionDelay: 30
     updateInterval: 1.5
   - type: Organ
     slotId: stomach
@@ -150,6 +151,8 @@
   description: "Filters toxins from the bloodstream."
   categories: [ HideSpawnMenu ]
   components:
+  - type: Organ # Shitmed
+    slotId: kidneys
   - type: Sprite
     layers:
       - state: kidney-l
